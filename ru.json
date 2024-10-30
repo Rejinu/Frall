@@ -177,173 +177,173 @@
           "inspiration": "-15 inspiration"
         },
         "apply": "Применить",
-        "conclusion": "Open Section %data.section:{0}%",
-        "events": "Add City Event {0} and Road Event {0} to the deck",
+        "conclusion": "Откройте раздел %data.section:{0}%",
+        "events": "Добавьте Городское Событие {0} и Дорожное Событие {0} в колоду",
         "moveSupply": "Move resources to Frosthaven supply",
-        "prosperity": "+{0} prosperity"
+        "prosperity": "+{0} процветание"
       },
-      "retirements": "Retirements",
+      "retirements": "Уход на покой",
       "title": "{1} {0}",
-      "trial": "Trial",
+      "trial": "Испытание",
       "xp": "XP"
     },
-    "remove": "Remove Character",
-    "removeAll": "Remove All",
-    "replay": "Doubleclick to replay character",
-    "setAside": "Set character aside",
+    "remove": "Убрать Персонажа",
+    "removeAll": "Убрать Всех",
+    "replay": "Дважды щелкните чтобы повторить персонажа",
+    "setAside": "Отложите персонажа в сторону",
     "summon": {
-      "level": "(Level {0})"
+      "level": "(Уровень {0})"
     },
-    "token": "Character Token",
+    "token": "Жетона Персонажа",
     "traits": "Traits",
     "unlock": {
-      ".": "Unlock?",
-      "confirm": "Unlock!"
+      ".": "Разблокировать?",
+      "confirm": "Разблокировать!"
     },
     "unlockAll": {
-      ".": "Unlock all?",
-      "confirm": "Unlock all!"
+      ".": "Разблокировать всё?",
+      "confirm": "Разблокировать всё!"
     }
   },
-  "close": "Close",
+  "close": "Закрыть",
   "datamanagement": {
-    ".": "Data Management",
-    "addEditionDataUrl": "Add Edition Data Url",
-    "addSpoiler": "Add Spoiler",
-    "addUnlock": "Unlock",
+    ".": "Управление Данными",
+    "addEditionDataUrl": "Добавить Версию Url-адреса Данных",
+    "addSpoiler": "Добавить Спойлер",
+    "addUnlock": "Разблокировать",
     "backup": {
-      ".": "Game Backups",
-      "all": "Download all Game Backups ({0})",
+      ".": "Резервная Копия Игры",
+      "all": "Загрузить Все Копии Игры ({0})",
       "auto": {
-        ".": "Automatic Backups",
-        "count": "Every (x) actions",
-        "countHint": "Number of actions between automatic backups",
-        "onFinish": "After finishing Scenario",
+        ".": "Автоматическое Резервное Копирование",
+        "count": "Каждое (x) действие",
+        "countHint": "Количество действий между автоматическими резервными копированиями",
+        "onFinish": "После Завершения Сценария",
         "uploadUrl": {
-          ".": "Upload Url",
+          ".": "Загрузить Url-адрес",
           "error": {
-            ".": "Warning: Automatic Backup failed",
-            "status": "Automatic Backup failed with response code '{0}'. Take a look at the browser console for more details.",
-            "unknown": "Automatic Backup failed due to unknown reason. Please take a look at the browser console for more details."
+            ".": "Внимание: Автоматическое Резервное Копирование не удалось",
+            "status": "Автоматическое Резервное Копирование не удалось с кодом '{0}'. Проверьте консоль браузера для дополнительных данных.",
+            "unknown": "Автоматическое Резервное Копирование не удалось по неизвестной причине. Проверьте консоль браузера для дополнительных данных."
           },
-          "hint": "Instead of downloading the automatic backup file, set an URL to upload the data to. {FILENAME} can be used as placeholder for filename.  (This requires proper CORS settings to work!)"
+          "hint": "Вместо загрузки файла автоматической резервной копии - укажите URL-адрес для загрузки данных. {FILENAME} может использоваться как заменитель имени файла.  (Для того, чтобы это работало требуются соответствующие настройки CORS!"
         },
         "uploadUrlAuthorization": {
-          ".": "Authorization Header",
-          "hint": "Used as the 'Authorization' header for upload request"
+          ".": "Заголовок авторизации",
+          "hint": "Используется в качестве заголовка "Авторизация" для запроса на загрузку"
         },
         "uploadUrlFileUpload": {
-          ".": "Upload as File",
-          "hint": "Create a file object to upload. If unchecked, raw JSON string data will be send."
+          ".": "Загрузить файл",
+          "hint": "Создайте файл для загрузки. Если флажок снят, будут отправлены необработанные строковые данные в формате JSON."
         },
         "uploadUrlMethod": {
-          ".": "Method",
+          ".": "Метод",
           "get": "GET",
-          "hint": "HTTP Method for uploading",
+          "hint": "HTTP метод for загрузки",
           "post": "POST",
           "put": "PUT"
         },
         "uploadUrlPassword": {
-          ".": "Password",
-          "hint": "Used password for upload request"
+          ".": "Пароль",
+          "hint": "Используемый пароль для запроса загрузки"
         },
         "uploadUrlUsername": {
-          ".": "Username",
-          "hint": "Used username for upload request"
+          ".": "Имя Пользователя",
+          "hint": "Использованное Имя Пользователя для запроса загрузки"
         }
       },
-      "delete": "Delete Game Backups",
+      "delete": "Удаление резервных копий игры",
       "download": {
-        ".": "Download Backup file now",
+        ".": "Скачать Резервную Копию игры",
         "hint": {
-          ".": "Back up your game regularly to prevent data loss.",
-          "hide": "Don't show again",
-          "text": "Your entire process is stored in your browser's storage. Although no browser should accidentally delete this data, there are still very few reports of such incidents. Regardless of whether these incidents are caused by errors in use, but to be on the safe side, it is a good idea to create a backup."
+          ".": "Регулярно создавайте резервные копии своей игры, чтобы предотвратить потерю данных.",
+          "hide": "Не показывать больше",
+          "text": "Весь ваш процесс хранится в памяти вашего браузера. Хотя ни один браузер не должен случайно удалять эти данные, было несколько сообщений о таких случаях Независимо от того, вызваны ли эти случаи ошибками в использовании, на всякий случай рекомендуется создать резервную копию."
         },
-        "onFinish": "Automatic backup after finishing a scenario"
+        "onFinish": "Автоматическое резервное копирование после завершения сценария"
       },
-      "latest": "Download latest Game Backup"
+      "latest": "Скачать последнюю резервную копию игры"
     },
-    "clearAll": "Reset all Data",
+    "clearAll": "Сбросить Все Данные",
     "editionDataUrls": {
-      ".": "Manage Edition Data",
-      "custom": "Additional Edition Data",
-      "disable": "Disable Edition",
-      "enable": "Enable Edition",
-      "remove": "Remove Edition Data"
+      ".": "Управление Версией Данных",
+      "custom": "Дополнительная Версия Данных",
+      "disable": "Отключить Версии",
+      "enable": "Включить Версии",
+      "remove": "Удалить Версию Данных"
     },
-    "exportDataDump": "Export Data Dump",
-    "exportGame": "Export Game to File",
-    "exportSettings": "Export Settings to File",
-    "importDataDump": "Import Data Dump",
-    "importGame": "Import Game from File",
-    "importSettings": "Import Settings from File",
-    "removeAllSpoilers": "Remove all",
-    "removeAllUnlocks": "Remove all",
-    "removeSpoiler": "Remove Spoiler",
-    "removeUnlock": "Remove Unlock",
-    "resetGame": "Reset Game",
-    "resetSettings": "Reset Settings",
-    "restoreEditionDataUrls": "Restore Defaults",
-    "spoilers": "Manage Spoilers",
-    "unlocks": "Manage Unlocks"
+    "exportDataDump": "Экспортировать Дамп Данных",
+    "exportGame": "Экспортировать Игру в Файл",
+    "exportSettings": "Экспортировать Настройки в Файл",
+    "importDataDump": "Испортировать Дамп Данных",
+    "importGame": "Импортировать Игру из Файла",
+    "importSettings": "Импортировать Настройки из Файла",
+    "removeAllSpoilers": "Убрать всё",
+    "removeAllUnlocks": "Убрать всё",
+    "removeSpoiler": "Убрать Спойлер",
+    "removeUnlock": "Убрать Разблокированное",
+    "resetGame": "Сбросить Игру",
+    "resetSettings": "Сбросить Настройки",
+    "restoreEditionDataUrls": "Восстановить по умолчанию",
+    "spoilers": "Управление Спойлерами",
+    "unlocks": "Управление Разблокированным"
   },
   "duration": {
-    "days": "{3} days, {2} hours, {1} minutes and {0} seconds",
+    "days": "{3} дня(дней), {2} часа(сов), {1} минута(минут(ы)) и {0} секунд(ы)",
     "gameClock": {
-      ".": "Game Clock",
-      "clockIn": "Clock in to the Game Clock",
-      "clockOut": "Clock out from the Game Clock",
-      "current": "Current: {0}",
-      "off": "Game Clock paused! Doubleclick to clock in.",
-      "paused": "Game Clock paused! Doubleclick to clock in.<br>Total: {0}",
-      "running": "Game Clock running! Doubleclick to clock out.<br>Current: {1}",
-      "runningTotal": "Game Clock running! Doubleclick to clock out.<br>Current: {1}<br>Total: {0}",
-      "timestamp": "Run from {0} for {1}",
-      "total": "Total: {0}"
+      ".": "Внутриигровые часы",
+      "clockIn": "Включите Игровые Часы",
+      "clockOut": "Отчет времени закончился на Игровых часах",
+      "current": "Текущее: {0}",
+      "off": "Игровые Часы приостановлены! Дважды щелкните, чтобы включить часы.",
+      "paused": "Игровые Часы приостановлены! Дважды щелкните, чтобы включить часы.<br>Total: {0}",
+      "running": "Игровые Часы запущены! Дважды щелкните, чтобы остановить часы.<br>Current: {1}",
+      "runningTotal": "Игровые Часы запущены! Дважды щелкните, чтобы остановить часы.<br>Current: {1}<br>Total: {0}",
+      "timestamp": "Запустить от {0} для {1}",
+      "total": "Всего: {0}"
     },
-    "hours": "{2} hours, {1} minutes and {0} seconds",
-    "minutes": "{1} minutes and {0} seconds",
-    "seconds": "{0} seconds",
-    "totalHours": "{0}, approx {1} hours"
+    "hours": "{2} часа(сов), {1} минута(минут(ы)) и {0} секунд(ы)",
+    "minutes": "{1} минута(минут(ы)) and {0} секунд(ы)",
+    "seconds": "{0} секунд(ы)",
+    "totalHours": "{0}, приблизительно {1} часа(сов)"
   },
   "edition": {
-    ".": "Set Edition",
-    "all": "All Editions",
-    "conditions": "Available Conditions"
+    ".": "Выбрать Версию",
+    "all": "Все Версии",
+    "conditions": "Доступные Состояния"
   },
   "editor": {
-    ".": "Editor [Spoiler!]",
+    ".": "Редактор [Spoiler!]",
     "action": {
-      "add": "Add Action",
-      "addBottom": "Add Bottom Action",
-      "addSubAction": "Add Sub-action",
-      "remove": "Remove Action",
-      "removeSubAction": "Remove Sub-action",
-      "small": "Smaller",
-      "type": "Action Type",
-      "value": "Action Value",
+      "add": "Добавить Действие",
+      "addBottom": "Добавить Действие",
+      "addSubAction": "Добавить Вспомогательное Действие",
+      "remove": "Убрать Действие",
+      "removeSubAction": "Убрать Вспомогательное Действие",
+      "small": "Меньшее",
+      "type": "Тип Действия",
+      "value": "Значение Действия",
       "valueType": {
-        ".": "Value Type",
-        "add": "Add",
-        "fixed": "Fixed",
-        "minus": "Minus",
-        "plus": "Plus",
-        "subtract": "Subtract"
+        ".": "Значение Типа",
+        "add": "Добавить",
+        "fixed": "Исправлено",
+        "minus": "Минус",
+        "plus": "Плюс",
+        "subtract": "Вычесть"
       }
     },
     "character": {
-      ".": "Character Editor",
+      ".": "Редактор Персонажа",
       "data": {
-        ".": "Character Data",
-        "deck": "Ability Deck Name",
+        ".": "Данные Персонажа",
+        "deck": "Название Колоды Способностей",
         "json": {
-          ".": "Character Data JSON Data",
-          "download": "Download Character Data as JSON file"
+          ".": "Данные Персонажа в формате JSON",
+          "download": "Скачать Данные Персонажа как JSON файл"
         },
         "hp": {
-          ".": "Hit Points",
-          "-1": "Custom Profile",
+          ".": "Здоровье",
+          "-1": "Пользовательский профиль",
           "0": "Low Profile",
           "1": "Middle Profile",
           "2": "High Profile"
