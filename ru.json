@@ -230,7 +230,7 @@
         },
         "uploadUrlAuthorization": {
           ".": "Заголовок авторизации",
-          "hint": "Используется в качестве заголовка "Авторизация" для запроса на загрузку"
+          "hint": "Используется в качестве заголовка 'Авторизация' для запроса на загрузку""
         },
         "uploadUrlFileUpload": {
           ".": "Загрузить файл",
@@ -349,139 +349,139 @@
           "2": "High Profile"
         }
       },
-      "edition": "Edition",
-      "new": "New Character"
+      "edition": "Версия",
+      "new": "Новый Персонаж"
     },
     "deck": {
-      ".": "Abilities Deck Editor",
-      "abilityName": "Ability Name",
-      "addAbility": "Add Ability",
-      "character": "Character Deck",
+      ".": "Редактор Колоды персонажей",
+      "abilityName": "Название Способности",
+      "addAbility": "Добавить Способность",
+      "character": "Колода персонажа",
       "json": {
-        ".": "Abilities Deck JSON Data",
-        "download": "Download Abilities Deck as JSON file"
+        ".": "Данные Колоды персонажа JSON",
+        "download": "Скачать Колоду персонажа как файл JSON"
       },
-      "name": "Deck Name",
-      "new": "New Abilities Deck",
-      "removeAbility": "Remove Ability"
+      "name": "Название Колоды",
+      "new": "Новая Колода способностей",
+      "removeAbility": "Убрать Способность"
     },
     "edition": {
-      ".": "Edition Editor",
-      "base": "Basic Data",
+      ".": "Редактор Версии",
+      "base": "Основные Данные",
       "character": {
-        ".": "Add Character Files",
-        "remove": "Remove Character"
+        ".": "Добавить Файлы Персонажа",
+        "remove": "Убрать Персонажа"
       },
       "conditions": {
-        ".": "Available Conditions",
-        "allHint": "Deselect all conditions",
-        "allSelected": "Select all conditions"
+        ".": "Доступные Состояния",
+        "allHint": "Отменить выбор всех Состояний",
+        "allSelected": "Выбрать все Состояния"
       },
       "decks": {
-        ".": "Add Ability Decks Files",
-        "remove": "Remove Ability Deck"
+        ".": "Добавить файл Колоды Способностей",
+        "remove": "Убрать Колоду Способностей"
       },
-      "edition": "Edition Name",
-      "extensions": "Editions to extend",
+      "edition": "Название Версии",
+      "extensions": "Версии для расширений",
       "json": {
-        ".": "Edition JSON Data",
-        "download": "Download Edition Data as JSON file"
+        ".": "Изменение Данных JSON",
+        "download": "Скачать Версию Данных как файл JSON"
       },
       "monster": {
-        ".": "Add Monster Files",
-        "remove": "Remove Monster"
+        ".": "Добавить Файлы Монстра",
+        "remove": "Убрать Монстра"
       }
     },
     "monster": {
-      ".": "Monster Editor",
-      "new": "New Monster",
+      ".": "Редактор Монстров",
+      "new": "Новый Монстр",
       "stats": {
-        ".": "Monster Stats",
-        "addSpecial": "Add Special",
-        "allLevel": "All Level",
-        "applyAll": "Apply to all level",
-        "boss": "Is Boss",
-        "count": "Standee Count",
-        "deck": "Ability Deck Name",
-        "flying": "Is Flying",
-        "hidden": "Is Hidden",
+        ".": "Характеристики Монстра",
+        "addSpecial": "Добавить Special",
+        "allLevel": "Все уровни",
+        "applyAll": "Применить для Всех уровней",
+        "boss": "Является Боссом",
+        "count": "Счетчик Фишек",
+        "deck": "Название Колоды Способностей",
+        "flying": "Является Летающим",
+        "hidden": "Является Невидимым",
         "json": {
-          ".": "Monster Stats JSON Data",
-          "download": "Download Monster Stats as JSON file"
+          ".": "Данные Характеристик Монстра JSON",
+          "download": "Скачать Характеристики Монстра как файл JSON"
         },
-        "levelSelect": "Select Level"
+        "levelSelect": "Выбрать Уровень"
       }
     }
   },
-  "errata": "Errata",
+  "errata": "Эррата",
   "escort": {
-    ".": "Escort",
-    "add": "Add Escort"
+    ".": "Эскорт",
+    "add": "Добавить Эскорт"
   },
   "game": {
     "action": {
-      "area": "Area Effect",
-      "attack": "Attack",
+      "area": "Эффект по области",
+      "attack": "Атака",
       "box": "[Box]",
-      "card": "Card",
+      "card": "Карта",
       "concatenation": "[Concatenation]",
-      "condition": "Condition",
-      "custom": "Custom",
-      "damage": "Damage",
-      "element": "Element",
-      "elementHalf": "Element Half",
-      "fly": "Fly",
+      "condition": "Состояние",
+      "custom": "Пользовательский",
+      "damage": "Урон",
+      "element": "Элемент",
+      "elementHalf": "Половина Элемента",
+      "fly": "Полет",
       "grant": "Grant",
       "grid": "[Grid]",
-      "heal": "Heal",
-      "jump": "Jump",
-      "loot": "Loot",
-      "monsterType": "Monster Type",
-      "move": "Move",
-      "nonCalc": "org. Action",
-      "pierce": "Pierce",
-      "pull": "Pull",
-      "push": "Push",
-      "range": "Range",
-      "refreshItem": "Refresh an item",
-      "retaliate": "Retaliate",
-      "shield": "Shield",
-      "spawn": "Spawn",
-      "special": "Special",
-      "specialTarget": "Special Target",
-      "sufferDamage": "Suffer Damage",
-      "summon": "Summon",
+      "heal": "Лечение",
+      "jump": "Прыжок",
+      "loot": "Добыча",
+      "monsterType": "Тип Монстра",
+      "move": "Движение",
+      "nonCalc": "org. Действие",
+      "pierce": "Пробой",
+      "pull": "Притянуть",
+      "push": "Оттолкнуть",
+      "range": "Дальность",
+      "refreshItem": "Развернуть карту предмета",
+      "retaliate": "Ответный удар",
+      "shield": "Щит",
+      "spawn": "Разместить",
+      "special": "Особый",
+      "specialTarget": "Особая цель",
+      "sufferDamage": "Получает урон",
+      "summon": "Призыв",
       "swing": "Swing",
-      "target": "Target",
-      "targets": "Targets",
-      "teleport": "Teleport",
-      "trigger": "Trigger"
+      "target": "Цель",
+      "targets": "Цели",
+      "teleport": "Телепорт",
+      "trigger": "Вызывает"
     },
-    "affect": "Affect",
-    "allied": "Allied",
+    "affect": "Влиять",
+    "allied": "Союзный",
     "ally": {
-      ".": "Ally",
+      ".": "Союзник",
       "addEntity": {
-        "boss": "Spawn Boss Ally",
-        "elite": "Spawn Elite Ally",
-        "normal": "Spawn Normal Ally"
+        "boss": "Призвать Босса-союзника",
+        "elite": "Призвать Элитного Союзника",
+        "normal": "Призвать Обычного Союзника"
       }
     },
     "attackModifiers": {
-      ".": "Attack Modifier Deck",
+      ".": "Колода Модификаторов Атаки",
       "additional": {
-        "apply": "Use deck of {0}",
-        "dialog": "Select Character's deck for applying %game.condition.{0}%",
-        "select": "Select Character"
+        "apply": "Использовать колоду {0}",
+        "dialog": "Выберите Колоду Персонажа для применения %game.condition.{0}%",
+        "select": "Выберите Персонажа"
       },
       "effects": {
-        "refreshSpentItem": "Spent"
+        "refreshSpentItem": "Потери"
       },
-      "openDialog": "Show Attack Modifier Deck",
+      "openDialog": "Показать Колоду Модификаторов Атаки",
       "perks": {
-        ".": "Perks",
-        "additional": "{0} and {1}",
-        "card": "card",
+        ".": "Навыки",
+        "additional": "{0} и {1}",
+        "card": "карта",
         "cardLabel": "{0}{1} {2}",
         "cards": {
           "1": "%number.1%",
@@ -489,86 +489,86 @@
           "3": "%number.3%",
           "4": "%number.4%",
           "5": "%number.5%",
-          ".": "cards"
+          ".": "карты"
         },
         "effects": {
-          "recoverRandomDiscard": "Recover %game.card.recover% one random card from your discard pile",
-          "refreshItem": "Refresh an item",
-          "refreshItemFh": "%game.card.recover% one item",
-          "refreshSpentItem": "Refresh a spent item"
+          "recoverRandomDiscard": "Верни на руку %game.card.recover% одну свою случайную карту из Потерь",
+          "refreshItem": "Разверни карту предмета",
+          "refreshItemFh": "%game.card.recover% один предмет",
+          "refreshSpentItem": "Разверни потраченную карту предмета"
         },
         "type": {
-          "add": "add {0}",
-          "remove": "remove {0}",
-          "replace": "replace {0} with {1}"
+          "add": "добавь {0}",
+          "remove": "убери {0}",
+          "replace": "замени {0} на {1}"
         },
-        "warning": "More perks than available selected!",
-        "wip": "%wip%! Perks not complete yet."
+        "warning": "Выбрано больше навыков, чем доступно!",
+        "wip": "%wip%! Навыки еще не завершены."
       },
       "types": {
-        "bless": "Bless",
-        "curse": "Curse",
-        "double": "Double",
-        "invalid": "Invalid",
-        "minus": "Minus",
-        "minus1": "Minus 1",
-        "minus2": "Minus 2",
-        "null": "Null",
-        "plus": "Plus",
-        "plus0": "Plus 0",
-        "plus1": "Plus 1",
-        "plus2": "Plus 2",
-        "plus3": "Plus 3",
-        "plus4": "Plus 4"
+        "bless": "Благословение",
+        "curse": "Проклятье",
+        "double": "Удвоить",
+        "invalid": "Недопустимый",
+        "minus": "Минус",
+        "minus1": "Минус 1",
+        "minus2": "Минус 2",
+        "null": "Пустое значение",
+        "plus": "Плюс",
+        "plus0": "Плюс 0",
+        "plus1": "Плюс 1",
+        "plus2": "Плюс 2",
+        "plus3": "Плюс 3",
+        "plus4": "Плюс 4"
       }
     },
     "battleGoals": {
-      ".": "Battle Goals",
-      "all": "Current Cards",
-      "cancel": "Cancel",
-      "choose": "Choose Battle Goal for %game.characterIconColored.{0}% {1}",
-      "chosen": "Battle Goal for %game.characterIconColored.{0}% {1}",
-      "chooseCard": "Choose selected Card",
-      "drawCard": "Draw another card",
-      "drawCards": "Redraw cards",
-      "edition": "%data.edition.{0}% Cards",
+      ".": "Боевое Задание",
+      "all": "Текущие Карты",
+      "cancel": "Отмена",
+      "choose": "Выбери Боевое Задание для %game.characterIconColored.{0}% {1}",
+      "chosen": "Боевое Задание для %game.characterIconColored.{0}% {1}",
+      "chooseCard": "Выбери отмеченную карту",
+      "drawCard": "Вытянуть другую карту",
+      "drawCards": "Вытянуть карты заново",
+      "edition": "%data.edition.{0}% Карты",
       "setup": {
-        ".": "Setup Battle Goals",
-        "empty": "No Battle Goals Cards selected."
+        ".": "Подготовить Боевое Задание",
+        "empty": Боевое Задание не выбрано."
       }
     },
     "card": {
-      "experience": "X Experience",
-      "lost": "Lost",
-      "persistent": "Persistent bonus",
-      "recover": "Recover",
-      "refresh": "Refresh",
-      "round": "Round bonus",
-      "slot": "Use slot",
-      "slotXp": "Use slot X Experience"
+      "experience": "X Опыта",
+      "lost": "Потери",
+      "persistent": "Постоянный бонус",
+      "recover": "Разверни",
+      "refresh": "Обнови",
+      "round": "Бонус за раунд",
+      "slot": "Используй слот",
+      "slotXp": "Используй слот X Опыта"
     },
     "cards": {
-      "confirmReveal": "Click again to reveal!",
-      "coverAll": "Cover All",
-      "defaultSort": "Sort",
-      "draw": "Draw",
-      "drawAdvantage": "Draw with Advantage",
-      "drawAnother": "Draw Another",
-      "drawDisadvantage": "Draw with Disadvantage",
-      "drawExtra": "Draw Extra",
+      "confirmReveal": "Нажмите еще раз, чтобы показать!",
+      "coverAll": "Скрыть Все",
+      "defaultSort": "Сотртировать",
+      "draw": "Тянуть",
+      "drawAdvantage": "Тянуть с преимуществом",
+      "drawAnother": "Вытяни Другую",
+      "drawDisadvantage": "Тянуть с затруднением",
+      "drawExtra": "Вытяни дополнительно",
       "edit": {
-        ".": "Edit",
-        "toggleBB": "Show as BB Table"
+        ".": "Редактировать",
+        "toggleBB": "Отобразить как BB Таблицу"
       },
-      "fullscreen": "Show Fullscreen",
-      "openDialog": "Show all cards",
-      "removeDrawnDiscards": "Remove Drawn Discards",
-      "restore": "Restore defaults",
-      "revealAll": "Reveal All?",
-      "revealAllConfirm": "Reveal All!",
+      "fullscreen": "Показывать во весь экран",
+      "openDialog": "Показывать все карты",
+      "removeDrawnDiscards": "Удалить Вытянутые в Сброс",
+      "restore": "Восстановить по умолчанию",
+      "revealAll": "Показать Всё?",
+      "revealAllConfirm": "Показать Всё!",
       "shuffle": {
-        ".": "Shuffle",
-        "upcomingHint": "Doubleclick to shuffle only upcoming cards!"
+        ".": "Замешать",
+        "upcomingHint": "Дважды щелкните, чтобы перетасовать только оставшиеся карты!"
       }
     },
     "condition": {
